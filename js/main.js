@@ -13,7 +13,7 @@ const productos = [
         "idProducto":"2",
         "producto":"Pelota",
         "precio":"1000",
-        "foto": "./img/Pelota.jpg"
+        "foto": "./img/pelota.jpg"
     },
     {
         "tipoProducto":"Futbol",
@@ -93,7 +93,7 @@ const productos = [
         "idProducto":"12",
         "producto": "Zapatillas Adidas Running Hombre",
         "precio":"1000",
-        "foto": "./img/Running_hombre1.jpg"
+        "foto": "./img/running_hombre1.jpg"
     },
     {
         "tipoProducto":"Running",
@@ -101,7 +101,7 @@ const productos = [
         "idProducto":"13",
         "producto": "Zapatillas Adidas Running Mujer",
         "precio":"1000",
-        "foto": "./img/Running_mujer1.jpg"
+        "foto": "./img/running_mujer1.jpg"
     },
     {
         "tipoProducto":"Hockey",
@@ -109,7 +109,7 @@ const productos = [
         "idProducto":"14",
         "producto": "Palo Hokey Master",
         "precio":"1000",
-        "foto": "./img/PaloHockey1.jpg"
+        "foto": "./img/paloHockey1.jpg"
     },
     {
         "tipoProducto":"Hockey",
@@ -117,7 +117,7 @@ const productos = [
         "idProducto":"15",
         "producto": "Zapatillas Adidas Running Mujer",
         "precio":"1000",
-        "foto": "./img/Running_mujer1.jpg"
+        "foto": "./img/running_mujer1.jpg"
     }
 ]
 
