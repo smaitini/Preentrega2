@@ -1,7 +1,7 @@
 const carritoDeCompras = JSON.parse(localStorage.getItem("Productos"));
 
  const contenedorProductos= document.querySelector(".carrito-productos");
- console.log(carritoDeCompras);
+//  console.log(carritoDeCompras);
  let precioTotal =0;
  carritoDeCompras.forEach(producto => {
     precioTotal= parseFloat(producto.precio * producto.cantidad)

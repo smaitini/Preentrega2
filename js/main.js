@@ -163,7 +163,7 @@ function productosCargados(x){
         contenedorProductos.append(div);
         })
         actualizarBotonesAgregar();
-        console.log(botonesAgregas);
+        // console.log(botonesAgregas);
 }
 /*--------------------------------------------*/
 function actualizarBotonesAgregar() {
@@ -171,7 +171,7 @@ function actualizarBotonesAgregar() {
     botonesAgregas.forEach(boton => {
         boton.addEventListener("click",agregaCarrito);
     })
-    console.group(botonesAgregas);
+    // console.group(botonesAgregas);
 }
 
 let productosEnCarrito;
@@ -195,6 +195,6 @@ function agregaCarrito(e) {
     }
     //Guardo en LS
     localStorage.setItem("Productos",JSON.stringify(productosEnCarrito));
-    console.log(productosEnCarrito);
+    // console.log(productosEnCarrito);
 }
 
