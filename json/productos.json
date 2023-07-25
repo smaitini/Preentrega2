@@ -1,0 +1,91 @@
+[
+    {
+        "tipoProducto":"Futbol",
+        "idtipoPruducto": "1",
+        "idProducto":"1",
+        "producto": "Pelota nro 5 Profesional",
+        "precio":"1000",
+        "foto": "./img/pelota.jpg"
+    },
+    {
+        "tipoProducto":"Futbol",
+        "idtipoPruducto": "1",
+        "idProducto":"2",
+        "producto":"Pelota",
+        "precio":"1000",
+        "foto": "./img/Pelota.jpg"
+    },
+    {
+        "tipoProducto":"Futbol",
+        "idtipoPruducto": "1",
+        "idProducto":"1",
+        "producto": "Pelota Etrusco",
+        "precio":"1000",
+        "foto": "./img/etrusco.jpg"
+    },
+    {
+        "tipoProducto":"Futbol",
+        "idtipoPruducto": "1",
+        "idProducto":"2",
+        "producto": "Pelota Tango",
+        "precio":"1000",
+        "foto": "./img/Tango.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"1",
+        "producto": "Dobok TAEKWONDO",
+                "precio":"1000",
+        "foto": "./img/dobokTKD.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"2",
+        "producto": "Cinturon Amarillo",
+                "precio":"1000",
+        "foto": "./img/cinturonAmarillo.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"3",
+        "producto": "Cinturon Verde",
+        "precio":"1000",
+        "foto": "./img/cinturonVerde.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"4",
+        "producto": "Cinturon Verde",
+        "precio":"1000",
+        "foto": "./img/cinturonVerde.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"5",
+        "producto": "Cinturon Rojo",
+        "precio":"1000",
+        "foto": "./img/cinturonRojo.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"6",
+        "producto": "Cinturon Negro",
+        "precio":"1000",
+        "foto": "./img/cinturonNegro.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"7",
+        "producto": "Puntas cinturon",
+        "precio":"1000",
+        "foto": "./img/puntas.jpg"
+    }
+]
+
