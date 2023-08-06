@@ -1,132 +1,17 @@
-const productos = [
-    {
-        "tipoProducto":"Futbol",
-        "idtipoPruducto": "1",
-        "idProducto":"1",
-        "producto": "Pelota nro 5 Profesional",
-        "precio":"1000",
-        "foto": "./img/pelota.jpg"
-    },
-    {
-        "tipoProducto":"Futbol",
-        "idtipoPruducto": "1",
-        "idProducto":"2",
-        "producto":"Pelota",
-        "precio":"1000",
-        "foto": "./img/pelota.jpg"
-    },
-    {
-        "tipoProducto":"Futbol",
-        "idtipoPruducto": "1",
-        "idProducto":"3",
-        "producto": "Pelota Etrusco",
-        "precio":"1000",
-        "foto": "./img/etrusco.jpg"
-    },
-    {
-        "tipoProducto":"Futbol",
-        "idtipoPruducto": "1",
-        "idProducto":"4",
-        "producto": "Pelota Tango",
-        "precio":"1000",
-        "foto": "./img/Tango.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"5",
-        "producto": "Dobok TAEKWONDO",
-                "precio":"1000",
-        "foto": "./img/dobokTKD.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"6",
-        "producto": "Cinturon Amarillo",
-                "precio":"1000",
-        "foto": "./img/cinturonAmarillo.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"7",
-        "producto": "Cinturon Verde",
-        "precio":"1000",
-        "foto": "./img/cinturonVerde.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"8",
-        "producto": "Cinturon Azul",
-        "precio":"1000",
-        "foto": "./img/cinturonAzul.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"8",
-        "producto": "Cinturon Rojo",
-        "precio":"1000",
-        "foto": "./img/cinturonRojo.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"10",
-        "producto": "Cinturon Negro",
-        "precio":"1000",
-        "foto": "./img/cinturonNegro.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"11",
-        "producto": "Puntas cinturon",
-        "precio":"1000",
-        "foto": "./img/puntas.jpg"
-    },
-    {
-        "tipoProducto":"Running",
-        "idtipoPruducto": "3",
-        "idProducto":"12",
-        "producto": "Zapatillas Adidas Running Hombre",
-        "precio":"1000",
-        "foto": "./img/running_hombre1.jpg"
-    },
-    {
-        "tipoProducto":"Running",
-        "idtipoPruducto": "3",
-        "idProducto":"13",
-        "producto": "Zapatillas Adidas Running Mujer",
-        "precio":"1000",
-        "foto": "./img/running_mujer1.jpg"
-    },
-    {
-        "tipoProducto":"Hockey",
-        "idtipoPruducto": "4",
-        "idProducto":"14",
-        "producto": "Palo Hokey Master",
-        "precio":"1000",
-        "foto": "./img/paloHockey1.jpg"
-    },
-    {
-        "tipoProducto":"Hockey",
-        "idtipoPruducto": "4",
-        "idProducto":"15",
-        "producto": "Zapatillas Adidas Running Mujer",
-        "precio":"1000",
-        "foto": "./img/running_mujer1.jpg"
-    }
-]
+let productos; 
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botones = document.querySelectorAll(".botonito");
 let botonesAgregas = document.querySelectorAll(".producto-agregar");
 
-productosCargados(productos);
+fetch("../json/productos.json")
+    .then(response => response.json())
+    .then(pp => {
+        productos = pp;
+        productosCargados(productos);
+    })
 
+//productosCargados(productos);
 botones.forEach(boton => {
     boton.addEventListener("click",(e) => {
         if (e.currentTarget.id=="Todos") {
