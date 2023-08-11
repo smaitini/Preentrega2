@@ -3,10 +3,20 @@ const carritoDeCompras = JSON.parse(localStorage.getItem("Productos"));
 const contenedorProductos = document.querySelector(".carrito-productos");
 let botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
 let totalizador = document.querySelector("#total");
+let comprar = document.querySelector("#comprar");
+
+comprar.addEventListener("click", compra);
 
 let precioTotal = 0;
 let totalDeTotales = 0;
 
+function compra(){
+  Swal.fire({
+    icon: 'information',
+    title: 'Compra Exitosa',
+    text: 'Perfecto, has comprado los productos',
+  })
+}
 function cargarProductosCarrito() {
   totalDeTotales = 0;
   contenedorProductos.innerHTML = "";
