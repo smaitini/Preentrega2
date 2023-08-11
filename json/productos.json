@@ -122,7 +122,7 @@
     {
         "tipoProducto":"Otros",
         "idtipoPruducto": "5",
-        "idProducto":"1",
+        "idProducto":"16",
         "producto": "Arco",
         "precio":"10000",
         "foto": "./img/arcoChico.jpg"
@@ -130,7 +130,7 @@
     {
         "tipoProducto":"Hockey",
         "idtipoPruducto": "4",
-        "idProducto":"15",
+        "idProducto":"17",
         "producto": "Zapatillas Adidas Running Mujer",
         "precio":"1000",
         "foto": "./img/running_mujer1.jpg"
