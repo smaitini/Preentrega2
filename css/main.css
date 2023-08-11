@@ -32,6 +32,8 @@ a {
     display: grid;
     grid-template-columns: 4fr;
     background-color: var(--clr-white);
+    max-width: 1200px; 
+    margin: 0 auto 0 auto;
 }
 
 aside {
@@ -150,25 +152,34 @@ main {
 
 
 .producto-imagen {
-    height:15rem;
+    height:18rem;
     max-width: 100%;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
 }
 
 .producto-detalles {
-    background-color: var(--clr-main);
+    background-color: var(--clr-gray);
     color: var(--clr-white);
     padding: .5rem;
-    border-radius: 1rem;
-    margin-top: -.5rem;
+    /* border-radius: 1rem;
+    margin-top: -.5rem; */
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: .25rem;
+    height: 10rem;
 }
 
 .producto-titulo {
     font-size: 1rem;
+    color: brown;
+}
+
+.producto-precio{
+    font-size: larger;
+    color: brown;
 }
 
 .producto-agregar {
@@ -206,6 +217,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top:2rem;
 }
 
 .carrito-producto {
@@ -217,7 +230,10 @@ main {
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
-}
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    }
+
 
 .carrito-producto-imagen {
     width: 4rem;
@@ -235,9 +251,15 @@ main {
     cursor: pointer;
 }
 
-.carrito-acciones {
+.acciones {
     display: flex;
     justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    background-color:lightsteelblue;
+    padding: 1rem;
+
+
 }
 
 .carrito-acciones-vaciar {
@@ -250,8 +272,10 @@ main {
     cursor: pointer;
 }
 
-.carrito-acciones-derecha {
+.acciones-derecha {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .carrito-acciones-total {
@@ -262,10 +286,12 @@ main {
     text-transform: uppercase;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     gap: 1rem;
 }
 
-.carrito-acciones-comprar {
+.acciones-comprar {
     border: 0;
     background-color: var(--clr-main);
     padding: 1rem;
@@ -287,6 +313,10 @@ main {
 
 .disabled {
     display: none;
+}
+
+.carrito-comprar{
+    margin-top: 10rem;
 }
 
 /* ** MEDIA QUERIES **

@@ -3,13 +3,14 @@
 } */
 
 .header{
-    background-color: black;
-    max-width: 1200px;
+    background-color: lightsteelblue;
+    max-width: 1200px; 
     margin: 0 auto 0 auto;
     display:flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: column;
+    padding:2rem;
 }
 
 .logoHeader{
@@ -22,7 +23,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -36,7 +37,7 @@
 
 .contenedor-productos {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-columns: repeat(4 1fr); */
     gap: 1rem;
 }
 
@@ -96,3 +97,4 @@ p{
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+

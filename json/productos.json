@@ -4,7 +4,7 @@
         "idtipoPruducto": "1",
         "idProducto":"1",
         "producto": "Pelota nro 5 Profesional",
-        "precio":"1000",
+        "precio":"4999",
         "foto": "./img/pelota.jpg"
     },
     {
@@ -12,80 +12,127 @@
         "idtipoPruducto": "1",
         "idProducto":"2",
         "producto":"Pelota",
-        "precio":"1000",
-        "foto": "./img/Pelota.jpg"
+        "precio":"5999",
+        "foto": "./img/pelota.jpg"
     },
     {
         "tipoProducto":"Futbol",
         "idtipoPruducto": "1",
-        "idProducto":"1",
+        "idProducto":"3",
         "producto": "Pelota Etrusco",
-        "precio":"1000",
+        "precio":"6999",
         "foto": "./img/etrusco.jpg"
     },
     {
         "tipoProducto":"Futbol",
         "idtipoPruducto": "1",
-        "idProducto":"2",
-        "producto": "Pelota Tango",
-        "precio":"1000",
-        "foto": "./img/Tango.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"1",
-        "producto": "Dobok TAEKWONDO",
-                "precio":"1000",
-        "foto": "./img/dobokTKD.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"2",
-        "producto": "Cinturon Amarillo",
-                "precio":"1000",
-        "foto": "./img/cinturonAmarillo.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
-        "idProducto":"3",
-        "producto": "Cinturon Verde",
-        "precio":"1000",
-        "foto": "./img/cinturonVerde.jpg"
-    },
-    {
-        "tipoProducto":"Artes Marciales",
-        "idtipoPruducto": "2",
         "idProducto":"4",
-        "producto": "Cinturon Verde",
-        "precio":"1000",
-        "foto": "./img/cinturonVerde.jpg"
+        "producto": "Pelota Tango",
+        "precio":"7999",
+        "foto": "./img/tango.jpg"
     },
     {
         "tipoProducto":"Artes Marciales",
         "idtipoPruducto": "2",
         "idProducto":"5",
-        "producto": "Cinturon Rojo",
-        "precio":"1000",
-        "foto": "./img/cinturonRojo.jpg"
+        "producto": "Dobok TAEKWONDO",
+                "precio":"14999",
+        "foto": "./img/dobokTKD.jpg"
     },
     {
         "tipoProducto":"Artes Marciales",
         "idtipoPruducto": "2",
         "idProducto":"6",
-        "producto": "Cinturon Negro",
-        "precio":"1000",
-        "foto": "./img/cinturonNegro.jpg"
+        "producto": "Cinturon Amarillo",
+                "precio":"1499",
+        "foto": "./img/cinturonAmarillo.jpg"
     },
     {
         "tipoProducto":"Artes Marciales",
         "idtipoPruducto": "2",
         "idProducto":"7",
+        "producto": "Cinturon Verde",
+        "precio":"1499",
+        "foto": "./img/cinturonVerde.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"8",
+        "producto": "Cinturon Azul",
+        "precio":"1499",
+        "foto": "./img/cinturonAzul.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"9",
+        "producto": "Cinturon Rojo",
+        "precio":"1499",
+        "foto": "./img/cinturonRojo.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"10",
+        "producto": "Cinturon Negro",
+        "precio":"1499",
+        "foto": "./img/cinturonNegro.jpg"
+    },
+    {
+        "tipoProducto":"Artes Marciales",
+        "idtipoPruducto": "2",
+        "idProducto":"11",
         "producto": "Puntas cinturon",
-        "precio":"1000",
+        "precio":"350",
         "foto": "./img/puntas.jpg"
+    },
+    {
+        "tipoProducto":"Running",
+        "idtipoPruducto": "3",
+        "idProducto":"12",
+        "producto": "Zapatillas Adidas Running Hombre",
+        "precio":"25999",
+        "foto": "./img/running_hombre1.jpg"
+    },
+    {
+        "tipoProducto":"Running",
+        "idtipoPruducto": "3",
+        "idProducto":"13",
+        "producto": "Zapatillas Adidas Running Mujer",
+        "precio":"29999",
+        "foto": "./img/running_mujer1.jpg"
+    },
+    {
+        "tipoProducto":"Hockey",
+        "idtipoPruducto": "4",
+        "idProducto":"14",
+        "producto": "Palo Hokey Master",
+        "precio":"9999",
+        "foto": "./img/paloHockey1.jpg"
+    },
+    {
+        "tipoProducto":"Hockey",
+        "idtipoPruducto": "4",
+        "idProducto":"15",
+        "producto": "Bocha profesional",
+        "precio":"9999",
+        "foto": "./img/bocha.jpg"
+    },
+    {
+        "tipoProducto":"Otros",
+        "idtipoPruducto": "5",
+        "idProducto":"1",
+        "producto": "Arco",
+        "precio":"10000",
+        "foto": "./img/arcoChico.jpg"
+    },
+    {
+        "tipoProducto":"Hockey",
+        "idtipoPruducto": "4",
+        "idProducto":"15",
+        "producto": "Zapatillas Adidas Running Mujer",
+        "precio":"1000",
+        "foto": "./img/running_mujer1.jpg"
     }
 ]
-
